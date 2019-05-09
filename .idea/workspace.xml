@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386ddb88-4b52-4395-9207-805f12a0a69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base_python/function_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/function_base.py" afterDir="false" />
-    </list>
+    <list default="true" id="386ddb88-4b52-4395-9207-805f12a0a69b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +22,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base_python/function_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="-200">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base_python/bool_loop_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="1300">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base_python/data_structure_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2325">
+              <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -68,11 +75,12 @@
         <option value="$PROJECT_DIR$/base_python/class_base.py" />
         <option value="$PROJECT_DIR$/base_python/function_base.py" />
         <option value="$PROJECT_DIR$/base_python/bool_loop_base.py" />
+        <option value="$PROJECT_DIR$/base_python/data_structure_base.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="920" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="771" />
     <option name="width" value="1170" />
     <option name="height" value="1050" />
   </component>
@@ -131,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bool_loop_base">
+  <component name="RunManager" selected="Python.data_structure_base">
     <configuration name="bool_loop_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +154,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/bool_loop_base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_structure_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/data_structure_base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,6 +230,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_structure_base" />
         <item itemvalue="Python.bool_loop_base" />
         <item itemvalue="Python.function_base" />
         <item itemvalue="Python.string_base" />
@@ -216,12 +247,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557207902969</updated>
-      <workItem from="1557207904458" duration="20284000" />
+      <workItem from="1557207904458" duration="26467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20284000" />
+    <option name="totallyTimeSpent" value="26467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="920" y="0" width="1170" height="1050" extended-state="0" />
@@ -238,7 +269,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47932962" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31396648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,6 +285,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/easyPython$data_structure_base.coverage" NAME="data_structure_base Coverage Results" MODIFIED="1557393830978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
     <SUITE FILE_PATH="coverage/easyPython$function_base.coverage" NAME="function_base Coverage Results" MODIFIED="1557283985131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
     <SUITE FILE_PATH="coverage/easyPython$bool_loop_base.coverage" NAME="bool_loop_base Coverage Results" MODIFIED="1557383661080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
     <SUITE FILE_PATH="coverage/easyPython$string_base.coverage" NAME="string_base Coverage Results" MODIFIED="1557227328736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
@@ -273,6 +305,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base_python/bool_loop_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_python/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base_python/string_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -280,17 +326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base_python/function_base.py">
+    <entry file="file://$PROJECT_DIR$/base_python/data_structure_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_python/bool_loop_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        <state relative-caret-position="2325">
+          <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
         </state>
       </provider>
     </entry>
