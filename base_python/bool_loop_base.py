@@ -2,7 +2,6 @@
 created by goblinM 2019-5-9
 这是一个基本的逻辑循环与判断的demo
 """
-import os
 
 
 class BoolLoopBase:
@@ -91,8 +90,6 @@ class BoolLoopBase:
         for i in range(1,101):
             if i % 2 == 0:
                 print(i)
-
-
 
 
 if __name__ == "__main__":
