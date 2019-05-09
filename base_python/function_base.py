@@ -5,11 +5,11 @@ created by goblinM 2019.5.8
 
 
 class FunctionBase:
-    #绝对值
+    # 绝对值
     def func_abs(self):
         return abs(-5)
 
-    #字典
+    # 字典
     def func_dict(self):
         s_dict = dict()
         s_dict.setdefault("name","goblinM")
@@ -21,12 +21,12 @@ class FunctionBase:
         min_list = [-1,2,4,1,5,6]
         return min(min_list)
 
-    #最大值
+    # 最大值
     def func_max(self):
         max_list = [-1,2,4,1,5,6]
         return max(max_list)
 
-    #这一块都写数值字符串的转化
+    # 这一块都写数值字符串的转化
     def func_str_num_tranc(self):
         num_str = '5'
         num_int = 5
@@ -43,7 +43,6 @@ class FunctionBase:
         new_list = sort_list.sort(reverse=True)
         return new_list
 
-
     # 这一块写字符编码加上映射
     def func_str_code_map(self):
         print(ord('a'))
@@ -51,7 +50,7 @@ class FunctionBase:
         code_dict = {chr(n):n for n in range(97,124)}
         return code_dict
 
-    #这一块都是数据结构
+    # 这一块都是数据结构
     def func_data_struct(self):
         a = list()  # 列表
         b = [1,2,3,4,5,6]
@@ -81,6 +80,7 @@ class FunctionBase:
     # 魔力树
     def func_magic_tree(self):
         print('  *',' * *','* * *','  |  ',sep='\n')
+
 
 if __name__ == "__main__":
     obj = FunctionBase()
