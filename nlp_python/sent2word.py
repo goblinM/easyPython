@@ -11,7 +11,7 @@ def sent_word(sentence):
     segResult = [w.strip() for w in segList]  # 切割文本保存为list
     stopwords = []
 
-    with open(r'chineseStopWords.txt','r',encoding='gbk') as f:
+    with open(r'wordfiles/chineseStopWords.txt','r',encoding='gbk') as f:
         for w in f.readlines():
             stopwords.append(w.split('\n')[0])
     print(stopwords)
