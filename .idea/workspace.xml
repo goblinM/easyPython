@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="386ddb88-4b52-4395-9207-805f12a0a69b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_python/chineseStopWords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_python/wordfiles/chineseStopWords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_python/classifyWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_python/classifyWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlp_python/sent2word.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_python/sent2word.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp_python/sent2word.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nlp_python/classifyWords.py">
+        <entry file="file://$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp_python/wordfiles/degree.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="100">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,14 +46,15 @@
         <option value="$PROJECT_DIR$/nlp_python/sent2word.py" />
         <option value="$PROJECT_DIR$/nlp_python/wordfiles/degree.txt" />
         <option value="$PROJECT_DIR$/nlp_python/classifyWords.py" />
+        <option value="$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="709" />
-    <option name="y" value="44" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="713" />
+    <option name="y" value="85" />
     <option name="width" value="1170" />
-    <option name="height" value="1027" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -95,11 +75,6 @@
             <path>
               <item name="easyPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="easyPython" type="462c0819:PsiDirectoryNode" />
-              <item name="base_python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyPython" type="462c0819:PsiDirectoryNode" />
               <item name="hard_python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -110,13 +85,8 @@
             <path>
               <item name="easyPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="easyPython" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easyPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easyPython" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp_python" type="462c0819:PsiDirectoryNode" />
-              <item name="wordfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="middle_python" type="462c0819:PsiDirectoryNode" />
+              <item name="cb_one" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,7 +97,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nlp_python/wordfiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -285,7 +255,8 @@
       <option name="presentableId" value="Default" />
       <updated>1557207902969</updated>
       <workItem from="1557207904458" duration="28607000" />
-      <workItem from="1557797850500" duration="12348000" />
+      <workItem from="1557797850500" duration="12947000" />
+      <workItem from="1560836502671" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="类的简单使用">
       <created>1557818653478</created>
@@ -298,18 +269,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40955000" />
+    <option name="totallyTimeSpent" value="43055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="709" y="44" width="1170" height="1027" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1062" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18231046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17182498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3318335" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32453245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,6 +370,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_python/wordfiles/BosonNLP_sentiment_score.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/nlp_python/sent2word.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -406,20 +380,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_python/wordfiles/BosonNLP_sentiment_score.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/nlp_python/classifyWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nlp_python/wordfiles/degree.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp_python/classifyWords.py">
+    <entry file="file://$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="100">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
