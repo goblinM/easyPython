@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386ddb88-4b52-4395-9207-805f12a0a69b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle_python/cb_one/save_some_records.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle_python/cb_one/save_some_records.py" beforeDir="false" afterPath="$PROJECT_DIR$/middle_python/cb_one/save_some_records.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="1225">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -28,8 +25,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/middle_python/cb_one/save_some_records.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <element signature="e#264#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/middle_python/cb_one/priority_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-50">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_python/heapq_python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -61,14 +79,16 @@
         <option value="$PROJECT_DIR$/nlp_python/classifyWords.py" />
         <option value="$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py" />
         <option value="$PROJECT_DIR$/middle_python/cb_one/save_some_records.py" />
+        <option value="$PROJECT_DIR$/module_python/heapq_python.py" />
+        <option value="$PROJECT_DIR$/middle_python/cb_one/priority_queue.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="492" />
-    <option name="y" value="-10" />
-    <option name="width" value="1170" />
-    <option name="height" value="1050" />
+    <option name="x" value="935" />
+    <option name="y" value="20" />
+    <option name="width" value="990" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -78,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,16 +121,22 @@
               <item name="middle_python" type="462c0819:PsiDirectoryNode" />
               <item name="cb_one" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="easyPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyPython" type="462c0819:PsiDirectoryNode" />
+              <item name="module_python" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/working/ags" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -137,29 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unzip_for_variable">
-    <configuration name="bool_loop_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="easyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/bool_loop_base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.save_some_records">
     <configuration name="class_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_structure_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="heapq_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,12 +193,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/data_structure_base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_python/heapq_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save_some_records" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/middle_python/cb_one" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle_python/cb_one/save_some_records.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.save_some_records" />
+        <item itemvalue="Python.heapq_python" />
         <item itemvalue="Python.unzip_for_variable" />
         <item itemvalue="Python.sent2word" />
         <item itemvalue="Python.class_base" />
-        <item itemvalue="Python.data_structure_base" />
-        <item itemvalue="Python.bool_loop_base" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +301,8 @@
       <workItem from="1562421595125" duration="599000" />
       <workItem from="1562547876780" duration="605000" />
       <workItem from="1564551687194" duration="2086000" />
-      <workItem from="1564708267250" duration="3032000" />
+      <workItem from="1564708267250" duration="3738000" />
+      <workItem from="1565003612409" duration="10668000" />
     </task>
     <task id="LOCAL-00001" summary="类的简单使用">
       <created>1557818653478</created>
@@ -296,19 +322,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51995000" />
+    <option name="totallyTimeSpent" value="63369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1704698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32478634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -335,8 +361,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="python3cookbook的基本使用" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/easyPython$heapq_python.coverage" NAME="heapq_python Coverage Results" MODIFIED="1565006488689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_python" />
     <SUITE FILE_PATH="coverage/easyPython$data_structure_base.coverage" NAME="data_structure_base Coverage Results" MODIFIED="1557393830978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
     <SUITE FILE_PATH="coverage/easyPython$function_base.coverage" NAME="function_base Coverage Results" MODIFIED="1557283985131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
+    <SUITE FILE_PATH="coverage/easyPython$save_some_records.coverage" NAME="save_some_records Coverage Results" MODIFIED="1565089789540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/middle_python/cb_one" />
     <SUITE FILE_PATH="coverage/easyPython$unzip_for_variable.coverage" NAME="unzip_for_variable Coverage Results" MODIFIED="1564708953956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/middle_python/cb_one" />
     <SUITE FILE_PATH="coverage/easyPython$bool_loop_base.coverage" NAME="bool_loop_base Coverage Results" MODIFIED="1557383661080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
     <SUITE FILE_PATH="coverage/easyPython$class_base.coverage" NAME="class_base Coverage Results" MODIFIED="1557805840310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python" />
@@ -424,17 +452,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middle_python/cb_one/save_some_records.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/middle_python/cb_one/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/middle_python/cb_one/unzip_for_variable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="1225">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/working/project_env3/Lib/heapq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="559" selection-start-line="559" selection-end-line="559" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_python/heapq_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle_python/cb_one/save_some_records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#264#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle_python/cb_one/priority_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
