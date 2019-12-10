@@ -1,0 +1,4 @@
+2019-12-10 19:46:54,898[INFO]: logging info
+2019-12-10 19:46:54,898[WARNING]: logging warning
+2019-12-10 19:46:54,898[ERROR]: logging error
+2019-12-10 19:46:54,898[CRITICAL]: logging critical
