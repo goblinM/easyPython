@@ -13,6 +13,15 @@ class PriorityQueue:
         self._index = 0
 
     def push(self, item, priority):
+        """
+        (-priority, index, item) 的元组。
+        优先级为负数的目的是使得元素按照优先级从高到低排序。 这个跟普通的按优先级从低到高排序的堆排序恰巧相反
+        index 变量的作用是保证同等优先级元素的正确排序
+        :param item:
+        :param priority:
+        :return:
+        """
+        print((-priority, self._index, item))
         heapq.heappush(self._queue, (-priority, self._index, item))
         self._index += 1
 
