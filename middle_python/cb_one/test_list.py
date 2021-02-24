@@ -81,13 +81,54 @@ class TestList:
         filter_address = list(compress(addresses,more5))
         print("filter_address=", filter_address)
 
+    def test_namedtuple(self):
+        # 映射名称到序列元素 collection.namedtuple
+        from collections import namedtuple
+        subscriber = namedtuple('subscriber', ['addr', 'joined'])  # 创建一个subscriber类型，以及addr和joined字段
+        sub = subscriber('centerPark', '2011-09-12')  # 给addr, joined 赋值
+        print(sub)
+        print(sub.addr)
+        print(sub.joined)
+        # 可以索引和解压
+        addr, joined = sub
+        print(addr)
+        print(joined)
+        Stock = namedtuple('Stock', ['name', 'shares', 'price'])
+
+        def compute_cost(records):
+            total = 0.0
+            for rec in records:
+                print(*rec)
+                s = Stock(*rec)
+                total += s.shares * s.price
+            return total
+        # compute_cost(Stock('a','32',124))
+
+    def test_chainmap(self):
+        from collections import ChainMap
+        a = {'x':1, 'y':2}
+        b = {'y':2, 'z':4}
+        c = ChainMap(a,b)  # 合并字典a和字典b
+        print(c['x'])
+        print(c['y'])
+        print(c['z'])
+        print(len(c))
+        print(list(c.keys()))
+        print(list(c.values()))
+        values = ChainMap()
+        values['x'] = 1
+        values = values.new_child()
+        values['x'] = 2
+        print(values)
 
 
 if __name__ == "__main__":
     obj = TestList()
-    a = [1, 5, 2, 1, 9, 1, 5, 10]
-    print(list(obj.dedque(a)))
-    b = [{'x':1, 'y':2}, {'x':1, 'y':3}, {'x':1, 'y':2}, {'x':2, 'y':4}]
-    print(list(obj.dedque_two(b,key=lambda d:(d["x"], d["y"]))))
-    obj.test_slice()
-    obj.test_groupby()
+    # a = [1, 5, 2, 1, 9, 1, 5, 10]
+    # print(list(obj.dedque(a)))
+    # b = [{'x':1, 'y':2}, {'x':1, 'y':3}, {'x':1, 'y':2}, {'x':2, 'y':4}]
+    # print(list(obj.dedque_two(b,key=lambda d:(d["x"], d["y"]))))
+    # obj.test_slice()
+    # obj.test_groupby()
+    # obj.test_namedtuple()
+    obj.test_chainmap()
